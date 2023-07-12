@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FFD28722A5E99B80033B7AD /* CprAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD28712A5E99B80033B7AD /* CprAppApp.swift */; };
-		8FFD28742A5E99B80033B7AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD28732A5E99B80033B7AD /* ContentView.swift */; };
-		8FFD28762A5E99BA0033B7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFD28752A5E99BA0033B7AD /* Assets.xcassets */; };
-		8FFD28792A5E99BA0033B7AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFD28782A5E99BA0033B7AD /* Preview Assets.xcassets */; };
-		8FFD28832A5E99BA0033B7AD /* CprAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD28822A5E99BA0033B7AD /* CprAppTests.swift */; };
-		8FFD288D2A5E99BA0033B7AD /* CprAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD288C2A5E99BA0033B7AD /* CprAppUITests.swift */; };
-		8FFD288F2A5E99BA0033B7AD /* CprAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD288E2A5E99BA0033B7AD /* CprAppUITestsLaunchTests.swift */; };
+		8FFD289C2A5E99E30033B7AD /* AppDelegat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD289B2A5E99E30033B7AD /* AppDelegat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +29,9 @@
 
 /* Begin PBXFileReference section */
 		8FFD286E2A5E99B80033B7AD /* CprApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CprApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FFD28712A5E99B80033B7AD /* CprAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CprAppApp.swift; sourceTree = "<group>"; };
-		8FFD28732A5E99B80033B7AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8FFD28752A5E99BA0033B7AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8FFD28782A5E99BA0033B7AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8FFD287E2A5E99BA0033B7AD /* CprAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CprAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FFD28822A5E99BA0033B7AD /* CprAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CprAppTests.swift; sourceTree = "<group>"; };
 		8FFD28882A5E99BA0033B7AD /* CprAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CprAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FFD288C2A5E99BA0033B7AD /* CprAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CprAppUITests.swift; sourceTree = "<group>"; };
-		8FFD288E2A5E99BA0033B7AD /* CprAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CprAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FFD289B2A5E99E30033B7AD /* AppDelegat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +62,7 @@
 		8FFD28652A5E99B80033B7AD = {
 			isa = PBXGroup;
 			children = (
-				8FFD28702A5E99B80033B7AD /* CprApp */,
-				8FFD28812A5E99BA0033B7AD /* CprAppTests */,
-				8FFD288B2A5E99BA0033B7AD /* CprAppUITests */,
+				8FFD289B2A5E99E30033B7AD /* AppDelegat.swift */,
 				8FFD286F2A5E99B80033B7AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,42 +75,6 @@
 				8FFD28882A5E99BA0033B7AD /* CprAppUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8FFD28702A5E99B80033B7AD /* CprApp */ = {
-			isa = PBXGroup;
-			children = (
-				8FFD28712A5E99B80033B7AD /* CprAppApp.swift */,
-				8FFD28732A5E99B80033B7AD /* ContentView.swift */,
-				8FFD28752A5E99BA0033B7AD /* Assets.xcassets */,
-				8FFD28772A5E99BA0033B7AD /* Preview Content */,
-			);
-			path = CprApp;
-			sourceTree = "<group>";
-		};
-		8FFD28772A5E99BA0033B7AD /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8FFD28782A5E99BA0033B7AD /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8FFD28812A5E99BA0033B7AD /* CprAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				8FFD28822A5E99BA0033B7AD /* CprAppTests.swift */,
-			);
-			path = CprAppTests;
-			sourceTree = "<group>";
-		};
-		8FFD288B2A5E99BA0033B7AD /* CprAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8FFD288C2A5E99BA0033B7AD /* CprAppUITests.swift */,
-				8FFD288E2A5E99BA0033B7AD /* CprAppUITestsLaunchTests.swift */,
-			);
-			path = CprAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +145,7 @@
 				TargetAttributes = {
 					8FFD286D2A5E99B80033B7AD = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 					8FFD287D2A5E99BA0033B7AD = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -231,8 +182,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FFD28792A5E99BA0033B7AD /* Preview Assets.xcassets in Resources */,
-				8FFD28762A5E99BA0033B7AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FFD28742A5E99B80033B7AD /* ContentView.swift in Sources */,
-				8FFD28722A5E99B80033B7AD /* CprAppApp.swift in Sources */,
+				8FFD289C2A5E99E30033B7AD /* AppDelegat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FFD28832A5E99BA0033B7AD /* CprAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +221,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FFD288F2A5E99BA0033B7AD /* CprAppUITestsLaunchTests.swift in Sources */,
-				8FFD288D2A5E99BA0033B7AD /* CprAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CprApp/Preview Content\"";
@@ -432,6 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.CprApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CprApp/Preview Content\"";
